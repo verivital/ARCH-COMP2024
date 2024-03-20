@@ -6,8 +6,15 @@ Event info: https://cps-vo.org/group/ARCH/FriendlyCompetition
 
 ## Benchmarks 
 
-We plan to reuse benchmarks from 2023 but  feel free to propose new benchmarks or modifications to existing ones: https://github.com/verivital/ARCH-COMP2024/issues/1
+We plan to reuse benchmarks from 2023 but feel free to propose new benchmarks or modifications to existing ones: https://github.com/verivital/ARCH-COMP2024/issues/1
 
+Specifications modified from 2023:
+
+  - Airplane
+  
+  - Double Pendulum
+
+  - Single Pendulum
 
 
 ### [2023 Benchmarks](https://github.com/verivital/ARCH-COMP2023)
