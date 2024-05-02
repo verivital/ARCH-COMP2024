@@ -13,6 +13,7 @@ We plan to reuse benchmarks from 2023 but feel free to propose new benchmarks or
 | [ACC](./benchmarks/ACC) | `TODO` | default | distance over time | - | 
 | [Airplane](./benchmarks/Airplane) | `TODO` | default | `TODO` | modified | 
 | [Attitude Control](./benchmarks/Attitude-Control) | `TODO` | default | `TODO` | - | 
+| [Balancing](./benchmarks/Balancing) | `TODO` | default | `TODO` | - | 
 | [Benchmark 9 - Tora](./benchmarks/Benchmark9-Tora) | `TODO` | default | `TODO` | - | 
 | [Benchmark 10 - Unicycle](./benchmarks/Benchmark10-Unicycle) | `TODO` | default | `TODO` | - | 
 | [Docking](./benchmarks/Docking) | `TODO` | default | `TODO` | - | 
