@@ -8,23 +8,24 @@ Event info: https://cps-vo.org/group/ARCH/FriendlyCompetition
 
 We plan to reuse benchmarks from 2023 but feel free to propose new benchmarks or modifications to existing ones: https://github.com/verivital/ARCH-COMP2024/issues/1
 
-| Benchmark | Instance | Specification | Visualization | Comment |
-|-----------|----------|---------------|---------------|---------|
-| [ACC](./benchmarks/ACC) | `TODO` | default | distance over time | - | 
-| [Airplane](./benchmarks/Airplane) | `TODO` | default | `TODO` | modified | 
-| [Attitude Control](./benchmarks/Attitude-Control) | `TODO` | default | `TODO` | - | 
-| [Benchmark 9 - Tora](./benchmarks/Benchmark9-Tora) | `TODO` | default | `TODO` | - | 
-| [Benchmark 10 - Unicycle](./benchmarks/Benchmark10-Unicycle) | `TODO` | default | `TODO` | - | 
-| [Docking](./benchmarks/Docking) | `TODO` | default | `TODO` | - | 
-| [Docking](./benchmarks/Docking) | `TODO` | default | `TODO` | - | 
-| [Airplane](./benchmarks/NAV) | `TODO` | default | `TODO` | - | 
-| [Double Pendulum](./benchmarks/Double_Pendulum) | `TODO` | default | `TODO` | modified | 
-| [NAV](./benchmarks/NAV) | standard | default | `TODO` | new | 
-| [NAV](./benchmarks/NAV) | robust | default | `TODO` | new | 
-| [QUAD](./benchmarks/QUAD) | `TODO` | default | dim 3 over time | - | 
-| [Single Pendulum](./benchmarks/Single_Pendulum) | `TODO` | default | `TODO` | modified | 
-| [Tora Heterogeneous](./benchmarks/Tora_Heterogeneous) | `TODO` | default | `TODO` | - | 
-| [VCAS](./benchmarks/VCAS) | `TODO` | default | `TODO` | - | 
+| Benchmark | Instance | Specification | Network | Visualization | Comment |
+|-----------|----------|---------------|-----------|---------------|---------|
+| [ACC](./benchmarks/ACC) | safe-distance | default | relu | distance over time | - | 
+| [Airplane](./benchmarks/Airplane) | continuous | t\in[0,20] | relu | [2,7] | modified spec | 
+| [Airplane](./benchmarks/Airplane) | discrete | t\in{0,1,...,20} | relu | [2,7] | modified spec | 
+| [Attitude Control](./benchmarks/Attitude-Control) | avoid | default | sigmoid | [1,2] | - | 
+| [Docking](./benchmarks/Docking) | constraint | default | tanh | [1,2] and [3,4] | - | 
+| [Double Pendulum](./benchmarks/Double_Pendulum) | less-robust | Specification 1 | less robust | [3,4] | modified spec | 
+| [Double Pendulum](./benchmarks/Double_Pendulum) | more-robust | Specification 2 | more robust | [3,4] | modified spec | 
+| [NAV](./benchmarks/NAV) | standard | default | nn-nav-point | [1,2] | new | 
+| [NAV](./benchmarks/NAV) | robust | default | nn-nav-set | [1,2] | new | 
+| [QUAD](./benchmarks/QUAD) | reach | default | sigmoid | dim 3 over time | - | 
+| [Single Pendulum](./benchmarks/Single_Pendulum) | reach | default | relu | 1 over time | modified spec | 
+| [TORA](./benchmarks/Benchmark9-Tora) | remain | Specification 1 | relu | [1,2] and [3,4] | - | 
+| [TORA (Heterogeneous)](./benchmarks/Tora_Heterogeneous) | reach-sigmoid | Specification 2 | sigmoid | [1,2] | - | 
+| [TORA (Heterogeneous)](./benchmarks/Tora_Heterogeneous) | reach-tanh | Specification 2 | tanh | [1,2] | - | 
+| [Unicycle](./benchmarks/Benchmark10-Unicycle) | reach | default | relu | [1,2] | - | 
+| [VCAS](./benchmarks/VCAS) | avoid | default | relu | `TODO` | `TODO` |
 
 
 ### [2023 Benchmarks](https://github.com/verivital/ARCH-COMP2023)
