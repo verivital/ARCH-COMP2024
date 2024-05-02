@@ -25,7 +25,7 @@ We plan to reuse benchmarks from 2023 but feel free to propose new benchmarks or
 | [TORA (Heterogeneous)](./benchmarks/Tora_Heterogeneous) | reach-sigmoid | Specification 2 | sigmoid | [1,2] | - | 
 | [TORA (Heterogeneous)](./benchmarks/Tora_Heterogeneous) | reach-tanh | Specification 2 | tanh | [1,2] | - | 
 | [Unicycle](./benchmarks/Benchmark10-Unicycle) | reach | default | relu | [1,2] | - | 
-| [VCAS](./benchmarks/VCAS) | `TODO` | default | `TODO` | relu | `TODO` | 
+| [VCAS](./benchmarks/VCAS) | avoid | default | relu | `TODO` | `TODO` |
 
 
 ### [2023 Benchmarks](https://github.com/verivital/ARCH-COMP2023)
